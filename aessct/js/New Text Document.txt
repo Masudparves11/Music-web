@@ -1,0 +1,14 @@
+
+
+ /* Demo purposes only */
+ $(".hover").box-text1(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
+ /* Demo purposes only */
+ $("figure").box-text(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
